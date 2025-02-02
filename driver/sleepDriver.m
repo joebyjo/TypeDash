@@ -1,5 +1,6 @@
 clc;
 clear;
+addpath('../src');
 
 
 sleep(5,false);

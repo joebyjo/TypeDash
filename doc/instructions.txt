@@ -1,9 +1,9 @@
 
 
-run Final/main.m
+run src/main.m
 
 
-all stages of project are contained in Stages/
+all stages of project are contained in stages/
 
 if user has not been registered yet,enter the username u want and more details will be asked for registration.
 

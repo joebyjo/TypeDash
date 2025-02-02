@@ -1,7 +1,7 @@
 clc;
 clear;
+addpath('../src');
 
-\
 
 % {strjoin(string, ' '),userInput,timeTaken, netWPM_, grossWPM_, accuracy_, errors}
 
