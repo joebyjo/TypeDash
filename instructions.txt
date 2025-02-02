@@ -1,0 +1,39 @@
+
+
+run Final/main.m
+
+
+all stages of project are contained in Stages/
+
+if user has not been registered yet,enter the username u want and more details will be asked for registration.
+
+
+
+
+This game measures your typing speed. Words will appear on the screen, and you need to type them as fast and accurately as possible.
+
+Welcome to the Typing Speed Test!
+Your goal is to type as quickly and accurately as possible. Words will appear on the screen, and you need to type them as fast and accurately as possible.
+
+Start off by entering your username and password, or you can register by entering your preferred username followed by entering additional details as requested. Then login using new user. you will then be presented with options to play,view scoreboard,view leaderboard and more.To play the game choose (1/p/play)
+
+1. Play   (1/p/play)
+Use this option to play a game to check your Typing speed. The words will appear and you have a split second to quickly read through the words, You can start typing when the arrow ('-> ') appears. Your scores will be displayed and your game score will be saved
+
+2. View Stats   (2/s/stats/view stats)
+Use this option view your stats and your previous games. All data including your best scores,best time,average scores, accuracy, total games played and more will be displayed
+
+
+3. View scoreboard   (3/sb/leaderboard/scoreboard/view scoreboard)
+Use this option to view the current scoreboard. It will display the best scores,best time,average scores, accuracy and more of all users that have played the game.
+
+
+4. logout  (4/l/logout)
+Use this option to logout of your account and log into another account.
+
+
+5. help  (5/h/help)
+Use this option to view this help screen
+
+99. exit  (99/e/exit)
+Use this option to quit the game
