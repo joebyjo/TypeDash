@@ -1,0 +1,44 @@
+
+
+function login()
+    
+    while true
+
+        startArt('By: Joe');
+    
+        username = lower(strtrim(input("Username: ",'s')));
+        
+        disp(username);
+
+        % get user details function
+        user = 0;
+
+
+        if ~user
+            fprintf('User Does Not Exist\n\n')
+            ch = lower(input('Register New User(y/n): ','s'));
+
+            if ch == 'n'
+                disp('asas');
+            elseif ch == 'y'
+                fprintf('\n\n---------------------------------------------------------------------------------------------\n');
+
+                name = input('Enter Name: ','s');
+                age = input('Enter Age: ');
+                password = input('Enter Password: ','s');
+
+                fprintf('\n\n---------------------------------------------------------------------------------------------\n');
+
+                data = [name, age, username, password];
+
+                sleep(2,true);
+
+                % todo
+
+                continue;
+
+
+            end
+        end
+    end
+end

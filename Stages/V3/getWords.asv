@@ -1,0 +1,45 @@
+
+
+function words = getWords(count)
+    
+    %{
+    Get words from word_list.txt depending on specified mode
+    file which returns a random selection of words in the form of a list
+    %}
+
+    FILE_NAME = 'word_list.txt';
+
+
+    % might not be necessary
+    if nargin < 2 || isempty(count)
+        count = 7;
+    end
+
+    % open file
+    fileID = fopen(FILE_NAME, 'r');
+
+    % read contents of file and store in variable
+    dataArray = textscan(fileID, '%s', 'Delimiter', '\n');
+
+    % close file
+    fclose(fileID);
+
+    % convert contents of file to string array
+    fileContents = string(dataArray{1});
+
+    % get number of words
+    fileSize = length(fileContents);
+
+    word_list = fileContents;
+    
+
+    words = strings(1,count);
+    for i = 1:count
+        word = word_list(randi([1,fileSize],1));
+        
+        words(1,i) = word; %[words word];
+
+    end
+
+
+end

@@ -1,0 +1,38 @@
+
+
+
+function typingSpeed()
+    
+    % get words
+    string = getWords(7);
+
+    % todo add anti-cheat
+
+    % convert array into a string separated by " " delimiter
+    string_ = strjoin(string, ' ');
+
+    % Print words
+    fprintf("Words:\n    " + string_ + "\n");
+    
+    % sleep program to give user time to read words
+    sleep(0.75,true);
+
+    startTime = 0;
+
+    userInput = input(" -> ","s");
+
+    endTime = 5;
+
+   
+    timeTaken = endTime-startTime;
+    net_wpm = netWPM(userInput,string_,timeTaken)
+    gross_wpm = grossWPM(userInput,timeTaken)
+    [accuracy1,errors] = accuracy(userInput, string_)
+
+
+    % todo
+    results = sprintf("Net WPM: %d     Accuracy: %f%%    Gross WPM: %d \n Time Taken: %d     Errors: %d",net_wpm,accuracy1,gross_wpm,timeTaken,errors);
+    
+    fprintf(results+"\n");
+
+end

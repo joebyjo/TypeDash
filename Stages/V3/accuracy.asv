@@ -1,0 +1,39 @@
+% todo
+
+function [accuracy,errors] = accuracy(inputText,text)
+    %{
+    calculates accuracy of typing speed by comparing
+    input_text and text on the basis of number of errors
+    %}
+
+
+    % todo remove anti-cheat
+
+    error = 0;
+    
+    textList = string(strsplit(text," ")); %
+    inputList = string(strsplit(inputText," ")); % user input
+    
+
+    for i = 1:length(textList)
+        c = textList(i);
+
+        for j = 1:length(inputList)
+
+            cont = inputList(j);
+            % try
+                x = inputList(i);
+                if x == cont
+                    disp(cont);
+    
+                end
+            % catch
+            %     continue;
+
+            % end
+            
+        end
+
+    end
+
+end
