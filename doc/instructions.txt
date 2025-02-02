@@ -12,7 +12,7 @@ if user has not been registered yet,enter the username u want and more details w
 
 This game measures your typing speed. Words will appear on the screen, and you need to type them as fast and accurately as possible.
 
-Welcome to the Typing Speed Test!
+Welcome to the TypeDash!
 Your goal is to type as quickly and accurately as possible. Words will appear on the screen, and you need to type them as fast and accurately as possible.
 
 Start off by entering your username and password, or you can register by entering your preferred username followed by entering additional details as requested. Then login using new user. you will then be presented with options to play,view scoreboard,view leaderboard and more.To play the game choose (1/p/play)
